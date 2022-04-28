@@ -1,0 +1,49 @@
+html, body {
+    width:100vw;
+    height:100vh;
+    background-image: url("https://t4.ftcdn.net/jpg/02/60/32/91/360_F_260329198_Yy6e2useFoQts8fx11T1wXRMpmhubP20.jpg");
+}
+
+.supercoolcalculator{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 0, 0);
+
+    transform: rotate(-20deg);
+    font-size: 60px;
+    top:20px;
+
+    animation-name: supercoolcalculator;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes supercoolcalculator{
+    from { font-size:50px }
+    to { font-size:60px }
+}
+
+.formula{
+    width:70vw;
+    height:19vh;
+    position:absolute;
+    left:20vw;
+    top:30vh;
+    font-size: 16vh;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.answer{
+    font-size: 16vh;
+    color:rgba(0, 0, 0, 0.672);
+    width:70vw;
+    height:19vh;
+    position:absolute;
+    left:30vw;
+    top:53vh;
+    font-size: 16vh;
+}
